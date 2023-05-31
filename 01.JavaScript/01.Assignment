@@ -1,0 +1,14 @@
+    //Create a JavaScript function called "multiplicationTable" that takes a single argument "num" (an integer) as input.
+    function multiplicationTable(num) {
+        //create a for loop that iterates from 1 to 10.
+        for (let i = 1; i <= 10; i++) {
+            //multiply the current iteration number by the input "num" to generate the product.
+            let product = num * i;
+            //Log the product to the console in the format "num x iteration = product".
+            console.log(`${num} X ${i} = ${product}`); 
+            // or,    console.log(num + " X " + i +" = "+  product);
+        }
+        }
+
+        multiplicationTable(5);
+        multiplicationTable(7);

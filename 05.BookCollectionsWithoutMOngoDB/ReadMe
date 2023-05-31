@@ -1,0 +1,9 @@
+1. This Server Contains 
+Express,
+Nodemon  -  module for the Server, 
+uuidv4   -  module for the genarate Unique ID for Each Books,
+dotenv   -  module to load environment variables from a .env file , 
+CORS     -  module to allow or restrict access to resources on a web page from another domain,
+body-parser - module to parse the request body in incoming HTTP requests.
+
+2. This File is Maintained by MVC (Models, Controllers, Views,) Architecture.
