@@ -1,0 +1,110 @@
+
+    /* CSS Variables */
+    :root {
+      --primary-color: #333;
+      --secondary-color: #f5f5f5;
+      --heading-font-size: 32px;
+    }
+
+    /* Custom font and styling using CSS variables */
+    body {
+      font-family: "Arial", sans-serif;
+    }
+
+    h1 {
+      color: var(--primary-color);
+      font-size: var(--heading-font-size);
+      text-align: center;
+    }
+
+    /* Styling for the container div */
+    .container {
+      background-color: var(--secondary-color);
+      width: 400px;
+      height: 300px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+
+    /* Styling for the table */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      background-color: #fff;
+    }
+
+    /* Styling for table cells */
+    table td {
+      border: 1px solid #ccc;
+      padding: 8px;
+    }
+
+    /* Hover effect for table rows */
+    table tr:hover {
+      background-color: #f9f9f9;
+    }
+
+    /* Styling for the first list item */
+    ul li:first-child {
+      font-weight: bold;
+    }
+
+    /* Styling for the image */
+    img {
+      width: 200px;
+      height: 150px;
+      display: block;
+      margin: 20px auto;
+    }
+
+    /* Styling for specific table cells */
+    table tr td:first-child {
+      background-color: #e0e0e0;
+    }
+
+    table tr:last-child td {
+      font-weight: bold;
+    }
+
+    /* Styling for the table header row */
+    table th {
+      background-color: var(--primary-color);
+      color: #fff;
+      padding: 8px;
+    }
+
+    /* Link Styles */
+    a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #ff0000;
+      text-decoration: underline;
+    }
+
+    a:active {
+      color: #0000ff;
+    }
+
+    /* Adding decorative content with ::before pseudo-element */
+    p::before {
+      content: ">> ";
+      color: #ff0000;
+    }
+
+    /* Box Model */
+    .container {
+      margin-top: 20px;
+      border: 1px solid var(--primary-color);
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    table {
+      margin-top: 20px;
+      border: 1px solid var(--primary-color);
+      padding: 10px;
+      box-sizing: border-box;
+    }
